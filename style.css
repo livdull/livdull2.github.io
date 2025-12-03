@@ -12,7 +12,7 @@
     /* Primary Colors */
     --primary-dark: #ffffff;
     --primary-light: #f5f5f5;
-    --accent-blue: #3a2d36;
+    --accent-blue: #9f3880;
     --accent-orange: #e74c3c;
   
     /* Typography */
@@ -121,7 +121,7 @@
   .navbar {
     position: sticky;
     top: 0;
-    background-color: var(--primary-dark);
+    background-color: var(white);
     color: var(--primary-light);
     padding: var(--spacing-sm) 0;
     z-index: 100;
