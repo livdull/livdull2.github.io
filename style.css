@@ -501,115 +501,129 @@
     }
   }
   
-  /* ============================================
-     RESPONSIVE DESIGN
-     ============================================ */
-  
-  /* Tablet Devices */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-  
-    h2 {
-      font-size: 2rem;
-    }
-  
-    .nav-menu {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      background-color: var(--primary-dark);
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-      padding: var(--spacing-lg) 0;
-    }
-  
-    .nav-menu.active {
-      display: flex;
-    }
-  
-    .hamburger {
-      display: flex;
-    }
-  
-    .section {
-      padding: var(--spacing-lg) var(--spacing-md);
-    }
-  
-    .projects-grid {
-      grid-template-columns: 1fr;
-    }
-  
-    .contact-wrapper {
-      grid-template-columns: 1fr;
-    }
-  
-    .footer-content {
-      flex-direction: column;
-    }
-  
-    .footer-links {
-      flex-direction: column;
-      gap: var(--spacing-md);
-    }
+ /* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* Tablet Devices */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
   }
-  
-  /* Mobile Devices */
-  @media (max-width: 480px) {
-    :root {
-      --spacing-lg: 24px;
-      --spacing-xl: 32px;
-    }
-  
-    h1 {
-      font-size: 2rem;
-    }
-  
-    h2 {
-      font-size: 1.5rem;
-    }
-  
-    .nav-container {
-      padding: 0 var(--spacing-sm);
-    }
-  
-    .nav-logo {
-      font-size: 1.4rem;
-    }
-  
-    .section {
-      padding: var(--spacing-lg) var(--spacing-sm);
-      min-height: auto;
-    }
-  
-    .home-section {
-      min-height: 80vh;
-    }
-  
-    .video-container {
-      margin: var(--spacing-lg) 0;
-    }
-  
-    .photo-gallery {
-      grid-template-columns: 1fr;
-      gap: var(--spacing-sm);
-    }
-  
-    .gallery-item {
-      height: 250px;
-    }
-  
-    .project-card {
-      margin-bottom: var(--spacing-md);
-    }
-  
-    .submit-btn {
-      padding: var(--spacing-md) var(--spacing-lg);
-      font-size: 1rem;
-    }
+
+  h2 {
+    font-size: 2rem;
   }
-  
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-dark);
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .section {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  /* Gallery images responsive for tablets */
+  .gallery-image {
+    height: 90vh;
+    object-fit: contain;
+    /* Use contain to show full image on tablets */
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  :root {
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .nav-container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .nav-logo {
+    font-size: 1.4rem;
+  }
+
+  .section {
+    padding: var(--spacing-lg) var(--spacing-sm);
+    min-height: auto;
+  }
+
+  /* Gallery images fitted for mobile screens */
+  .gallery-image {
+    height: auto;
+    max-height: 100vh;
+    object-fit: contain;
+    /* Use contain + auto height on iPhone to display full image */
+  }
+
+  .home-section {
+    min-height: 80vh;
+  }
+
+  .video-container {
+    margin: var(--spacing-lg) 0;
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .gallery-item {
+    height: 250px;
+  }
+
+  .project-card {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .submit-btn {
+    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: 1rem;
+  }
+}
