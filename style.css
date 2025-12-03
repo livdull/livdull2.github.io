@@ -221,7 +221,7 @@
   
   /* Home Section */
   .home-section {
-    background:  0%, #000000 100%;
+    background:  0%, #ffffff 100%;
   }
   
   .home-content {
@@ -239,7 +239,7 @@
     margin: var(--spacing-xl) 0;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgb(201, 31, 31);
+    box-shadow: 0 10px 30px rgb(255, 255, 255);
   }
   
   .video-container iframe {
@@ -270,7 +270,7 @@
   }
   
   .project-card {
-    background-color: rgb(151, 74, 74);
+    background-color: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
