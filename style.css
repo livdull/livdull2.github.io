@@ -165,7 +165,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--accent-blue);
+    background-color: var(black);
     transition: width 0.3s ease;
   }
   
