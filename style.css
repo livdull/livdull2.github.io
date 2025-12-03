@@ -221,7 +221,7 @@
   
   /* Home Section */
   .home-section {
-    background: linear-gradient(135deg, var(--primary-light) 0%, #ffffff 100%);
+    background:  0%, #ffffff 100%;
   }
   
   .home-content {
