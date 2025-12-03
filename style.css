@@ -308,55 +308,27 @@
   
   /* Photo Section */
   .photo-section {
-    background: linear-gradient(135deg, #f5f5f5 0%, #e8f4f8 100%);
+    background: #000;
     flex-direction: column;
+    padding: 0;
+    min-height: auto;
   }
   
+  /* Completely rewrote photo gallery for full-screen scrolling layout */
   .photo-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--spacing-md);
-    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    margin: 0 auto;
+    height: auto;
   }
   
-  .gallery-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    transition: var(--transition);
-    height: 400px;
-  }
-  
-  .gallery-item img {
+  .gallery-image {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
-    transition: var(--transition);
-  }
-  
-  .gallery-item:hover img {
-    transform: scale(1.05);
-  }
-  
-  .gallery-item figcaption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: var(--spacing-md);
-    font-family: var(--font-title);
-    font-size: 1.3rem;
-    transform: translateY(100%);
-    transition: var(--transition);
-  }
-  
-  .gallery-item:hover figcaption {
-    transform: translateY(0);
+    display: block;
+    border-radius: 0;
+    border: none;
   }
   
   /* Contact Section */
