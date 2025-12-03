@@ -10,8 +10,8 @@
   
   :root {
     /* Primary Colors */
-    --primary-dark: #000000;
-    --primary-light: #000000;
+    --primary-dark: #ffffff;
+    --primary-light: #ffffff;
     --accent-black: #000000;
     --accent-orange: #000000;
   
@@ -231,7 +231,7 @@
   
   .subtitle {
     font-size: 1.5rem;
-    color: var(rgb(142, 95, 185));
+    color: var(black);
     margin-bottom: var(--spacing-lg);
   }
   
@@ -249,7 +249,7 @@
   
   .video-description {
     font-size: 1.1rem;
-    color: #000000;
+    color: #666;
     margin-top: var(--spacing-lg);
   }
   
@@ -273,7 +273,7 @@
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgb(255, 255, 255);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
     display: flex;
     flex-direction: column;
@@ -281,12 +281,12 @@
   
   .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgb(255, 255, 255);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
   }
   
   .video-slot {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #000;
     aspect-ratio: 16 / 9;
   }
   
@@ -472,7 +472,7 @@
   }
   
   .footer-link:hover {
-    color: var(--accent-black);
+    color: var(--accent-blue);
     text-decoration: underline;
   }
   
