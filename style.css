@@ -231,7 +231,7 @@
   
   .subtitle {
     font-size: 1.5rem;
-    color: var(black);
+    color: var(rgb(142, 95, 185));
     margin-bottom: var(--spacing-lg);
   }
   
@@ -273,7 +273,7 @@
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 20px rgb(255, 255, 255);
     transition: var(--transition);
     display: flex;
     flex-direction: column;
@@ -281,12 +281,12 @@
   
   .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 40px rgb(255, 255, 255);
   }
   
   .video-slot {
     width: 100%;
-    background-color: #000;
+    background-color: #ffffff;
     aspect-ratio: 16 / 9;
   }
   
