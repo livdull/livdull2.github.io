@@ -249,7 +249,7 @@
   
   .video-description {
     font-size: 1.1rem;
-    color: #666;
+    color: #000000;
     margin-top: var(--spacing-lg);
   }
   
@@ -270,7 +270,7 @@
   }
   
   .project-card {
-    background-color: white;
+    background-color: rgb(151, 74, 74);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
