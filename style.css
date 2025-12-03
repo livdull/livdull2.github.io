@@ -231,7 +231,7 @@
   
   .subtitle {
     font-size: 1.5rem;
-    color: var(--accent-blue);
+    color: var(black);
     margin-bottom: var(--spacing-lg);
   }
   
