@@ -122,7 +122,7 @@
     position: sticky;
     top: 0;
     background-color: var(white);
-    color: var(--primary-light);
+    text-decoration-color: var(rgb(0, 0, 0));;
     padding: var(--spacing-sm) 0;
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
