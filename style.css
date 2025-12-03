@@ -12,7 +12,7 @@
     /* Primary Colors */
     --primary-dark: #ffffff;
     --primary-light: #ffffff;
-    --accent-blue: #000000;
+    --accent-black: #000000;
     --accent-orange: #000000;
   
     /* Typography */
@@ -216,7 +216,7 @@
   
   .section-header p {
     font-size: 1.2rem;
-    color: var(--accent-blue);
+    color: var(--accent-black);
   }
   
   /* Home Section */
@@ -419,7 +419,7 @@
   }
   
   .contact-link {
-    color: var(--accent-blue);
+    color: var(--accent-black);
     text-decoration: none;
     font-size: 1.1rem;
     transition: var(--transition);
@@ -472,7 +472,7 @@
   }
   
   .footer-link:hover {
-    color: var(--accent-blue);
+    color: var(--accent-black);
     text-decoration: underline;
   }
   
