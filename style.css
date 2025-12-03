@@ -306,31 +306,30 @@
     color: #666;
   }
   
-  /* Photo Section */
-  .photo-section {
-    background: #ffffff;
-    flex-direction: column;
-    padding: 0;
-    min-height: auto;
-  }
-  
-  /* Completely rewrote photo gallery for full-screen scrolling layout */
-  .photo-gallery {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-  }
-  
-  .gallery-image {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    display: block;
-    border-radius: 0;
-    border: none;
-  }
-  
+ /* Photo Section */
+.photo-section {
+  background: #000;
+  flex-direction: column;
+  padding: 0;
+  min-height: auto;
+}
+
+/* Completely rewrote photo gallery for full-screen scrolling layout */
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  border: none;
+}
   /* Contact Section */
   .contact-section {
     background-color: white;
