@@ -12,8 +12,8 @@
     /* Primary Colors */
     --primary-dark: #ffffff;
     --primary-light: #ffffff;
-    --accent-blue: #9f3880;
-    --accent-orange: #e74c3c;
+    --accent-blue: #000000;
+    --accent-orange: #000000;
   
     /* Typography */
     --font-title: "Graduate", bold;
@@ -151,7 +151,7 @@
   }
   
   .nav-link {
-    color: (black);
+    color: var(black);
     text-decoration: none;
     font-size: 1rem;
     transition: var(--transition);
