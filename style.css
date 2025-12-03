@@ -121,7 +121,7 @@
   .navbar {
     position: sticky;
     top: 0;
-    background-color: var(rgb(143, 143, 143));
+    background-color: var(rgb(17, 16, 16));
     text-decoration-color: var(rgb(0, 0, 0));;
     padding: var(--spacing-sm) 0;
     z-index: 100;
