@@ -100,12 +100,12 @@
   /* Text Emphasis */
   strong {
     font-weight: 700;
-    color: var(--accent-blue);
+    color: var(black);
   }
   
   em {
     font-style: italic;
-    color: var(--accent-orange);
+    color: var(--black);
   }
   
   u {
@@ -399,7 +399,7 @@
   .submit-btn:hover {
     background-color: var(--accent-orange);
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(231, 76, 60, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
   
   .submit-btn:active {
