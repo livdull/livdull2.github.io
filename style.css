@@ -567,7 +567,6 @@
   .gallery-image {
     height: 90vh;
     object-fit: contain;
-    /* Use contain to show full image on tablets */
   }
 }
 
@@ -599,12 +598,11 @@
     min-height: auto;
   }
 
-  /* Gallery images fitted for mobile screens */
+  /* Gallery images optimized for mobile to show full content */
   .gallery-image {
     height: auto;
     max-height: 100vh;
     object-fit: contain;
-    /* Use contain + auto height on iPhone to display full image */
   }
 
   .home-section {
