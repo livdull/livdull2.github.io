@@ -11,8 +11,8 @@
   :root {
     /* Primary Colors */
     --primary-dark: #ffffff;
-    --primary-light: #954343;
-    --accent-black: #483465;
+    --primary-light: #a28fa4;
+    --accent-black: #ffffff;
     --accent-orange: #000000;
   
     /* Typography */
@@ -122,7 +122,7 @@
     position: static;
     top: 0;
     background-color: var(rgb(255, 255, 255));
-    text-decoration-color: var(rgb(255, 255, 255));;
+    text-decoration-color: var(rgb(35, 158, 148));;
     padding: var(--spacing-sm) 0;
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
