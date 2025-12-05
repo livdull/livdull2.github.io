@@ -11,8 +11,8 @@
   :root {
     /* Primary Colors */
     --primary-dark: #ffffff;
-    --primary-light: #ab94ad;
-    --accent-black: #ffffff;
+    --primary-light: #ffffff;
+    --accent-black: #000000;
     --accent-orange: #000000;
   
     /* Typography */
@@ -122,7 +122,7 @@
     position: static;
     top: 0;
     background-color: var(rgb(255, 255, 255));
-    text-decoration-color: var(rgb(35, 158, 148));;
+    text-decoration-color: var(rgb(255, 255, 255));;
     padding: var(--spacing-sm) 0;
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -504,127 +504,3 @@
     }
   }
   
-/* ============================================
-   RESPONSIVE DESIGN
-   ============================================ */
-
-/* Tablet Devices */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  .nav-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: var(--primary-dark);
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    padding: var(--spacing-lg) 0;
-  }
-
-  .nav-menu.active {
-    display: flex;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .section {
-    padding: var(--spacing-lg) var(--spacing-md);
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-content {
-    flex-direction: column;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    gap: var(--spacing-md);
-  }
-
-  /* Updated tablet gallery to use auto height */
-  .gallery-image {
-    height: auto;
-    object-fit: contain;
-  }
-}
-
-/* Mobile Devices */
-@media (max-width: 480px) {
-  :root {
-    --spacing-lg: 24px;
-    --spacing-xl: 32px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .nav-container {
-    padding: 0 var(--spacing-sm);
-  }
-
-  .nav-logo {
-    font-size: 1.4rem;
-  }
-
-  .section {
-    padding: var(--spacing-lg) var(--spacing-sm);
-    min-height: auto;
-  }
-
-  /* Gallery images optimized for mobile to show full content */
-  .gallery-image {
-    height: auto;
-    max-height: 100vh;
-    object-fit: contain;
-  }
-
-  .home-section {
-    min-height: 80vh;
-  }
-
-  .video-container {
-    margin: var(--spacing-lg) 0;
-  }
-
-  .photo-gallery {
-    grid-template-columns: 1fr;
-    /* removed gap between images on mobile */
-  }
-
-  .gallery-item {
-    height: 250px;
-  }
-
-  .project-card {
-    margin-bottom: var(--spacing-md);
-  }
-
-  .submit-btn {
-    padding: var(--spacing-md) var(--spacing-lg);
-    font-size: 1rem;
-  }
-}
