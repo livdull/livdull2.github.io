@@ -308,7 +308,7 @@
   
  /* Photo Section */
 .photo-section {
-  background: #ffffff;
+  background: #000;
   flex-direction: column;
   padding: 0;
   min-height: auto;
@@ -322,13 +322,17 @@
   height: auto;
 }
 
+/* Updated gallery-image to use object-fit: contain for full image display without cropping */
 .gallery-image {
   width: 100%;
   height: 100vh;
-  object-fit: cover;
+  object-fit: contain;
+  /* Changed from cover to contain to show entire image without cropping */
   display: block;
   border-radius: 0;
   border: none;
+  background-color: #000;
+  /* Black background ensures images have consistent appearance */
 }
   /* Contact Section */
   .contact-section {
@@ -561,7 +565,6 @@
   .gallery-image {
     height: 90vh;
     object-fit: contain;
-    /* Use contain to show full image on tablets */
   }
 }
 
@@ -593,12 +596,11 @@
     min-height: auto;
   }
 
-  /* Gallery images fitted for mobile screens */
+  /* Gallery images optimized for mobile to show full content */
   .gallery-image {
     height: auto;
     max-height: 100vh;
     object-fit: contain;
-    /* Use contain + auto height on iPhone to display full image */
   }
 
   .home-section {
