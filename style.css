@@ -504,7 +504,7 @@
     }
   }
   
- /* ============================================
+/* ============================================
    RESPONSIVE DESIGN
    ============================================ */
 
@@ -612,7 +612,7 @@
 
   .photo-gallery {
     grid-template-columns: 1fr;
-    gap: var(--spacing-sm);
+    /* removed gap between images on mobile */
   }
 
   .gallery-item {
