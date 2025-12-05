@@ -308,7 +308,7 @@
   
  /* Photo Section */
 .photo-section {
-  background: #000;
+  background: #ffffff;
   flex-direction: column;
   padding: 0;
   min-height: auto;
@@ -436,7 +436,7 @@
   }
   
   .contact-link:visited {
-    color: #9b59b6;
+    color: #51131c;
   }
   
   /* ============================================
