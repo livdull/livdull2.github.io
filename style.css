@@ -474,7 +474,7 @@
   }
   
   .footer-link:hover {
-    color: var(--accent-blue);
+    color: var(--accent-black);
     text-decoration: underline;
   }
   
@@ -532,7 +532,7 @@
     padding: var(--spacing-lg) 0;
     gap: 0;
     animation: slideDown 0.3s ease-out;
-    border-bottom: 2px solid var(--accent-blue);
+    border-bottom: 2px solid var(--accent-black);
   }
 
   .nav-menu.active {
@@ -541,7 +541,7 @@
 
   .nav-menu li {
     padding: var(--spacing-sm) 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .nav-menu li:last-child {
