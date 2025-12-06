@@ -577,6 +577,7 @@
 
   .footer-content {
     flex-direction: column;
+    color: #000;
   }
 
   .footer-links {
