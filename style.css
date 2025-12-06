@@ -553,7 +553,7 @@
   }
 
   .nav-link:hover {
-    color: var(--accent-blue);
+    color: var(--accent-black);
     background-color: rgba(52, 152, 219, 0.1);
     display: block;
     width: 100%;
