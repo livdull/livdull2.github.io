@@ -387,7 +387,7 @@
   
   .submit-btn {
     padding: var(--spacing-md) var(--spacing-lg);
-    background-color: var(--accent-blue);
+    background-color: #000; /* <--- UPDATED: Changed from var(--accent-blue) to #000 */
     color: white;
     border: none;
     border-radius: 8px;
@@ -443,12 +443,12 @@
      FOOTER
      ============================================ */
   
-  .footer {
-    background-color: var(--primary-dark);
-    color: var(--primary-light);
-    padding: var(--spacing-lg);
-    text-align: center;
-  }
+     footer {
+      background-color: var(--primary-dark);
+      color: #000; /* <--- UPDATED: Changed from var(--primary-light) to #000 */
+      padding: var(--spacing-lg);
+      text-align: center;
+    }
   
   .footer-content {
     max-width: 1200px;
