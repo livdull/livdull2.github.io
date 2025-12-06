@@ -258,6 +258,7 @@
     background-color: var(--primary-light);
     padding: var(--spacing-xl);
     flex-direction: column;
+    font color: #000;  
   }
   
   .projects-grid {
