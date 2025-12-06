@@ -258,7 +258,6 @@
     background-color: var(--primary-light);
     padding: var(--spacing-xl);
     flex-direction: column;
-    font color: #000;  
   }
   
   .projects-grid {
@@ -295,7 +294,10 @@
     width: 100%;
     height: 100%;
   }
-  
+
+  .projects-section {
+    color: #000;  /* Line 350 - h3 heading color */
+  }
 /* Set project card heading and text color to black */
 .project-card h3 {
   padding: var(--spacing-md) var(--spacing-md) 0;
