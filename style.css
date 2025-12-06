@@ -518,6 +518,7 @@
     font-size: 2rem;
   }
 
+  /* Enhanced mobile menu styling with slide-down animation */
   .nav-menu {
     display: none;
     position: absolute;
@@ -529,10 +530,33 @@
     width: 100%;
     text-align: center;
     padding: var(--spacing-lg) 0;
+    gap: 0;
+    animation: slideDown 0.3s ease-out;
+    border-bottom: 2px solid var(--accent-blue);
   }
 
   .nav-menu.active {
     display: flex;
+  }
+
+  .nav-menu li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-menu li:last-child {
+    border-bottom: none;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link:hover {
+    color: var(--accent-blue);
+    background-color: rgba(52, 152, 219, 0.1);
+    display: block;
+    width: 100%;
   }
 
   .hamburger {
@@ -560,7 +584,6 @@
     gap: var(--spacing-md);
   }
 
-  /* Updated tablet gallery to use auto height */
   .gallery-image {
     height: auto;
     object-fit: contain;
@@ -595,7 +618,6 @@
     min-height: auto;
   }
 
-  /* Gallery images optimized for mobile to show full content */
   .gallery-image {
     height: auto;
     max-height: 100vh;
@@ -611,8 +633,7 @@
   }
 
   .photo-gallery {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-sm);
+    /* removed gap between images on mobile */
   }
 
   .gallery-item {
@@ -626,5 +647,17 @@
   .submit-btn {
     padding: var(--spacing-md) var(--spacing-lg);
     font-size: 1rem;
+  }
+}
+
+/* Added animation keyframe for menu slide-down effect */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
