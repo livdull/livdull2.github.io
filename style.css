@@ -616,7 +616,7 @@
   }
 
   .section {
-    padding: var(--spacing-lg) var(--spacing-sm);
+    padding: 
     min-height: auto;
   }
 
