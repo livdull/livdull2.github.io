@@ -295,17 +295,18 @@
     height: 100%;
   }
   
-  .project-card h3 {
-    padding: var(--spacing-md) var(--spacing-md) 0;
-    color: var(--primary-dark);
-  }
-  
-  .project-card p {
-    padding: var(--spacing-sm) var(--spacing-md) var(--spacing-md);
-    font-size: 0.95rem;
-    color: #666;
-  }
-  
+/* Set project card heading and text color to black */
+.project-card h3 {
+  padding: var(--spacing-md) var(--spacing-md) 0;
+  color: #000;  /* Line 350 - h3 heading color */
+}
+
+.project-card p {
+  padding: var(--spacing-sm) var(--spacing-md) var(--spacing-md);
+  font-size: 0.95rem;
+  color: #000;  /* Line 356 - paragraph color */
+}
+
  /* Photo Section */
 .photo-section {
   background: #ffffff;
